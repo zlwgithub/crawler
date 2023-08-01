@@ -37,11 +37,11 @@ public:
 	//qq·½·¨
 	string fetchQQloginCode();
 
-	string waitScan();
+	bool waitScan();
 
 	string auth();
 
-	string auth2();
+	bool auth2();
 
 	string qqContact();
 

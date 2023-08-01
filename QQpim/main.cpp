@@ -1,7 +1,9 @@
 #include <QtCore/QCoreApplication>
 #include<iostream>
+#include"Service.h"
 #include"QQPimRequest.h"
 #include "dealData.h"
+
 using namespace std;
 
 string hashDecode(string qrsig)
@@ -36,20 +38,33 @@ int main(int argc, char *argv[])
     d.dealDataBaseContact();
     d.dealDataBaseTel();
 
-    int b;
-    CQQPimRequest re;
+    //int b;
+    //CQQPimRequest re;
 
-    //获取qq二维码
-    re.fetchQQloginCode();
+    ////获取qq二维码
+    //re.fetchQQloginCode();
+    //cin >> b;
+    ////扫码后输入1开始请求数据
+    //if (b == 1) {
+    //    re.waitScan();
+    //    re.auth();
+    //    re.auth2();
+    //    re.qqContact();
+    //    re.callLog(1);
+    //}
+
+    Service sv;
+    sv.GET_QRCODE_MSG_callback();
+    int b;
     cin >> b;
-    //扫码后输入1开始请求数据
     if (b == 1) {
-        re.waitScan();
-        re.auth();
-        re.auth2();
-        re.qqContact();
-        re.callLog(1);
+        sv.QRCODE_CONFRIM_MSG_callback();
+        sv.START_CRAWL_CONTACT_MSG_callback();
+        sv.START_CRAWL_callLog_MSG_callback();
     }
+
+
+
 
     
 

@@ -147,10 +147,10 @@ string CQQPimRequest::fetchQQloginCode()
 
 	
 
-	return request.text;
+	return "code.png";
 }
 
-string CQQPimRequest::waitScan()
+bool CQQPimRequest::waitScan()
 {
 	cout << "waitScan" << endl;
 	setlocale(LC_ALL, "en_US.UTF-8");
@@ -197,6 +197,11 @@ string CQQPimRequest::waitScan()
 	std::cmatch m;
 	auto ret = std::regex_search(str1, m, reg);
 	authUrl = m[2];
+	string authFlag = m[0];
+	
+	return true;
+	
+
 	/*if (ret)
 	{
 		for (auto& elem : m)
@@ -207,7 +212,7 @@ string CQQPimRequest::waitScan()
 	std::cout << "suffix:" << m.suffix() << std::endl;*/
 
 
-	return request.text;
+	//return request.text;
 	
 }
 
@@ -254,7 +259,7 @@ string CQQPimRequest::auth()
 	return request.text;
 }
 
-string CQQPimRequest::auth2()
+bool CQQPimRequest::auth2()
 {
 	cout << "auth2" << endl;
 	setlocale(LC_ALL, "en_US.UTF-8");
@@ -284,17 +289,29 @@ string CQQPimRequest::auth2()
 	auto request = m_session.Post();
 	cout << request.url << endl;
 	//cout << request.text.c_str() << endl;
+
 	cout << "SESSION_JSESSIONID" << request.cookies["SESSION_JSESSIONID"] << endl;
 	cout << "__lt" << request.cookies["__lt"] << endl;
 	cout << "__u" << request.cookies["__u"] << endl;
 	SESSION_JSESSIONID = request.cookies["SESSION_JSESSIONID"];
 	__lt = request.cookies["__lt"];
 	__u = request.cookies["__u"];
+	cout << "SESSION_JSESSIONID SIZE" << SESSION_JSESSIONID.size()<< endl;
+	if (SESSION_JSESSIONID.empty()) {
+		cout << "AUTH FALSE" << endl;
+		return false;
+		
+	}
+	else {
+		cout << "AUTH SUCCESS" << endl;
+		return true;
+		
+	}
 
 
 
 
-	return string();
+	//return string();
 }
 
 
@@ -342,7 +359,7 @@ string CQQPimRequest::qqContact()
 	dealData deal;
 	deal.dealJsonStringContact(data1.c_str());
 
-	return string();
+	return "ContactDataBase";
 
 }
 
@@ -425,7 +442,7 @@ string CQQPimRequest::callLog(int id)
 	}
 	
 
-	return string();
+	return "ContactDataBase";
 }
 
 
