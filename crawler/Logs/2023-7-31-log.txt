@@ -1,0 +1,3 @@
+[2023-07-31 08:53:13.482] [sbasic_logger] [info]   G:\夏令营项目\utils\proxy.cpp  13  redis服务器连接成功
+[2023-07-31 08:55:58.996] [sbasic_logger] [info]   G:\夏令营项目\utils\proxy.cpp  13  redis服务器连接成功
+[2023-07-31 13:06:52.930] [sbasic_logger] [info]   G:\夏令营项目\utils\proxy.cpp  13  redis服务器连接成功

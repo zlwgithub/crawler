@@ -1,0 +1,10 @@
+[2023-08-01 10:16:22.124] [sbasic_logger] [info]   G:\夏令营项目\utils\proxy.cpp  13  redis服务器连接成功
+[2023-08-01 10:16:25.066] [sbasic_logger] [info]   G:\夏令营项目\utils_test\CloudDataAcquisitionUI\ShowQRCode.cpp  130  无法加载图片:!
+[2023-08-01 10:17:28.361] [sbasic_logger] [info]   G:\夏令营项目\utils\proxy.cpp  13  redis服务器连接成功
+[2023-08-01 10:17:32.480] [sbasic_logger] [info]   G:\夏令营项目\utils_test\CloudDataAcquisitionUI\ShowQRCode.cpp  130  无法加载图片:!
+[2023-08-01 10:17:34.481] [sbasic_logger] [info]   G:\夏令营项目\utils_test\CloudDataAcquisitionUI\ShowQRCode.cpp  130  无法加载图片:!
+[2023-08-01 10:17:34.483] [sbasic_logger] [info]   G:\夏令营项目\utils_test\CloudDataAcquisitionUI\ShowQRCode.cpp  130  无法加载图片:!
+[2023-08-01 10:17:55.094] [sbasic_logger] [info]   G:\夏令营项目\utils\proxy.cpp  13  redis服务器连接成功
+[2023-08-01 10:17:55.850] [sbasic_logger] [info]   G:\夏令营项目\utils_test\CloudDataAcquisitionUI\ShowQRCode.cpp  130  无法加载图片:!
+[2023-08-01 10:21:48.488] [sbasic_logger] [info]   G:\夏令营项目\utils\proxy.cpp  13  redis服务器连接成功
+[2023-08-01 10:21:49.537] [sbasic_logger] [info]   G:\夏令营项目\utils_test\CloudDataAcquisitionUI\ShowQRCode.cpp  130  无法加载图片:樏弔!

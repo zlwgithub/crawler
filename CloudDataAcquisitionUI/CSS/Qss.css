@@ -1,0 +1,22 @@
+#cloudDataAcquisitionUipAddBtn
+{
+	font-family: "Microsoft YaHei";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	text-decoration: none;
+	color: #ffffff;
+	border: none;
+	border-radius:4px;
+	background-color: #2074f3;
+}
+
+#cloudDataAcquisitionUipAddBtn:hover
+{
+	background-color: #629df7;
+}
+
+#cloudDataAcquisitionUipAddBtn:pressed
+{
+	background-color: #1a5dc2;
+}

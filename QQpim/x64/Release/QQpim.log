@@ -1,0 +1,6 @@
+﻿  dealData.cpp
+E:\meiya\QQpim\dealData.cpp(132): warning C4715: “dealData::dealJson”: 不是所有的控件路径都返回值
+  cpr.lib(cprtypes.obj) : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
+  正在生成代码
+  已完成代码的生成
+  QQpim.vcxproj -> E:\meiya\QQpim\x64\Release\QQpim.exe

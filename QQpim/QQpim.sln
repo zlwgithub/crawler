@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33801.447
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QQpim", "QQpim.vcxproj", "{798B4AD0-66B0-41EB-A29E-B79E52CB0766}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{798B4AD0-66B0-41EB-A29E-B79E52CB0766}.Debug|x64.ActiveCfg = Debug|x64
+		{798B4AD0-66B0-41EB-A29E-B79E52CB0766}.Debug|x64.Build.0 = Debug|x64
+		{798B4AD0-66B0-41EB-A29E-B79E52CB0766}.Release|x64.ActiveCfg = Release|x64
+		{798B4AD0-66B0-41EB-A29E-B79E52CB0766}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68E17944-9EC2-4599-964B-40D58A81D933}
+	EndGlobalSection
+EndGlobal

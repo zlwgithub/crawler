@@ -1,0 +1,13 @@
+﻿  main.cpp
+C:\Users\zlw\Downloads\gzip-hpp-master\gzip-hpp-master\include\gzip\compress.hpp(67,9): warning C4068: 未知的杂注“GCC”
+C:\Users\zlw\Downloads\gzip-hpp-master\gzip-hpp-master\include\gzip\compress.hpp(68,9): warning C4068: 未知的杂注“GCC”
+C:\Users\zlw\Downloads\gzip-hpp-master\gzip-hpp-master\include\gzip\compress.hpp(73,9): warning C4068: 未知的杂注“GCC”
+C:\Users\zlw\Downloads\gzip-hpp-master\gzip-hpp-master\include\gzip\decompress.hpp(46,9): warning C4068: 未知的杂注“GCC”
+C:\Users\zlw\Downloads\gzip-hpp-master\gzip-hpp-master\include\gzip\decompress.hpp(47,9): warning C4068: 未知的杂注“GCC”
+C:\Users\zlw\Downloads\gzip-hpp-master\gzip-hpp-master\include\gzip\decompress.hpp(52,9): warning C4068: 未知的杂注“GCC”
+  正在生成代码
+  2963 of 9650 functions (30.7%) were compiled, the rest were copied from previous compilation.
+    173 functions were new in current compilation
+    819 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  crawler.vcxproj -> G:\夏令营项目\utils_test\x64\Release\crawler.exe
