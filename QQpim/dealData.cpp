@@ -34,7 +34,7 @@ bool openDatabase() {
     else
     {
         database = QSqlDatabase::addDatabase("QSQLITE");
-        database.setDatabaseName("MyDataBase.db");
+        database.setDatabaseName("ContactDataBase.db");
         database.setUserName("root");
         database.setPassword("123456");
     }
@@ -189,9 +189,11 @@ bool dealData::dealJsonStringContact(QString jsonString)
         if (!sql_query.exec())
         {
             qDebug() << sql_query.lastError();
+            return false;
         }
         else
         {
+            /*return true;*/
             qDebug() << "inserted success!";
         }
         /*qDebug() << id;
@@ -199,7 +201,7 @@ bool dealData::dealJsonStringContact(QString jsonString)
 
     }
     database.close();
-    return false;
+    return true;
 }
 
 bool dealData::dealJsonTel(QString filepath)
